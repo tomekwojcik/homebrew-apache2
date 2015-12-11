@@ -2,7 +2,7 @@ require 'formula'
 
 class Apache24 < Formula
   homepage 'https://httpd.apache.org/'
-  url 'http://ftp.ps.pl/pub/apache//httpd/httpd-2.4.17.tar.gz'
+  url 'http://ftp.ps.pl/pub/apache//httpd/httpd-2.4.17.tar.bz2'
   sha1 '73c5e3bc259274e043f7ef01e29894948ee420ca'
 
   skip_clean ['bin', 'sbin', 'logs']
